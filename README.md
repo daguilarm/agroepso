@@ -1,5 +1,5 @@
 # Agropeso
-This project is a first versión of my PhD project for the Universidad Miguel Hernández de Elche (Spain), in which a geolocated agricultural management software began to be drawn and developed at the plot level. 
+This project is a first versión of my PhD project for the Universidad Miguel Hernández de Elche (Spain), in which a geolocated agricultural management software base on Laravel. 
 
 This repository does not work, or at least it does not work correctly, since the next version began to be developed before finishing the current one.
 
