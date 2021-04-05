@@ -7,7 +7,7 @@
 /storage/logs
 /storage/medialibrary
 /database/factories
-/database/seeds
+/database/seeds/*
 /vendor
 /.idea
 /.vscode
