@@ -1,0 +1,16 @@
+/*!
+ * Pagination
+ * 
+ * Center the pagination component
+ */
+
+ul.pagination {
+    margin: 10px;
+    text-align: center;
+    font-size: 1.2rem;
+    @extend .justify-content-center;
+
+    li {
+        margin: 2px;
+    }
+}

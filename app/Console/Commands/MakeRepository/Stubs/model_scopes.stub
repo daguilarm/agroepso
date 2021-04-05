@@ -1,0 +1,17 @@
+<?php
+
+namespace App\Models\DummyClass;
+
+trait DummyClassScopes {
+
+    /*
+    |--------------------------------------------------------------------------
+    | Scopes
+    |--------------------------------------------------------------------------
+    */
+   
+    // public function scopeLast($query)
+    // {
+    //     return $query->latest()->first();
+    // }
+}

@@ -1,0 +1,116 @@
+/*!
+ * Forms
+ * Type: jquery-mask-plugin
+ */
+.date,
+.number,
+.decimal,
+.year {
+    text-align: right;
+}
+
+/*!
+ * Forms
+ * Type: Login container
+ */
+.login-box {
+    width: 420px;
+}
+
+/*!
+ * Forms
+ * Type: Define the max form width
+ * Type: Define the input and select
+ */
+#form-container {
+    max-width: 1600px;
+    margin: 0 auto;
+
+    h3 {
+        svg {
+            margin-right: 6px !important;
+            box-shadow: 1px 1px 2px $brand-primary-dark;
+            background-color: $brand-primary !important;
+            color: $color-white;
+            border-radius: 100%;
+            padding: 5px;
+            font-size: 2rem;
+            min-width: 35px;
+        }
+
+        color: $brand-primary-dark !important;
+        margin: 20px 0;
+    }
+
+    input,
+    select {
+        font-size: 1rem;
+        height: 40px;
+        color: $color-gray-700;
+        font-weight: 500;
+    }
+}
+
+/*!
+ * Forms
+ * Type: The filter select separation between its
+ * Type: Define the background color
+ */
+.filter-item {
+    margin: 0;
+    margin-right: 4px;
+
+    input,
+    select {
+        background-color: $color-yellow-lighter;
+        box-shadow: 1px 1px 1px $color-orange;
+        border: 1px solid $color-gray-800;
+        width: 200px;
+    }
+
+    input:hover,
+    input:active,
+    input:focus,
+    select:hover,
+    select:active,
+    select:focus {
+        background-color: $color-yellow-light;
+        box-shadow: 1px 1px 1px $color-gray-800;
+        border: 1px solid $color-gray-800;
+    }
+}
+
+/*!
+ * Forms
+ * Type: Added the required * to the fields
+ */
+label.label-required {
+    color: $brand-danger;
+}
+
+.label-required:after {
+    content: "*";
+    margin-left: 5px;
+    top: 5px;
+}
+
+/*!
+ * Forms
+ * Required fields
+ */
+input:required,
+textarea:required,
+select:required {
+    border-color: $brand-danger;
+    border-width: 1px;
+    box-shadow: 1px 1px 2px #999;
+    background-color: $color-yellow-lighter;
+}
+
+/*!
+ * Forms
+ * Fixed problem with top margin
+ */
+.form-group {
+    margin-top: 10px;
+}

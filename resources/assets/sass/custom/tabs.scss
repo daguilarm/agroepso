@@ -1,0 +1,45 @@
+#tabs {
+    border: 1px solid $brand-danger;
+    padding: 10px;
+    box-shadow: .5px .5px 1.5px $brand-danger;
+    margin-top: -1px;
+
+    img {
+        box-shadow: 1px 1px 2px #666;
+    }
+}
+
+.nav > .nav-item > .nav-link {
+    min-width: 120px;
+    text-align: center;
+}
+
+.nav > .nav-item > a.active {
+    background: $brand-danger !important;
+    color: #FFFFFF;
+    position: relative;
+    font-weight: 800;
+}
+
+.nav > .nav-item > a.active::after {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 42%;
+    border-width: 10px 10px 0;
+    border-style: solid;
+    border-color: $brand-danger transparent;
+    display: block;
+    width: 0;
+}
+
+.nav > .nav-item > a.nav-link {
+    border: 0;
+}
+
+.agronomic-options {
+    h4 {
+        margin-left: 15px;
+        border-bottom: 1px solid $color-gray-300;
+    }
+}

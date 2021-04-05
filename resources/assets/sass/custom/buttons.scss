@@ -1,0 +1,90 @@
+/*!
+ * Buttons
+ * Type: action
+ */
+.btn-action {
+    padding: 3px !important;
+    font-size: .8rem !important;
+    border-radius: 5px !important;
+    svg {
+        margin-left: 3px;
+    }
+}
+
+/*!
+ * Buttons
+ * Type: search
+ */
+
+.btn-search-default {
+    width: 50px;
+    height: 35px;
+    margin-top: -2px;
+}
+
+.btn-margin-search {
+    margin-top: 40px;
+}
+
+.btn-search {
+    @extend .btn-search-default;
+    @extend .btn-margin-search;
+    margin-left: 10px;
+}
+
+a.btn-search {
+    @extend .btn-search-default;
+    padding: 5px;
+    @extend .btn-margin-search;
+}
+
+/*!
+ * Buttons
+ * Type: terciary
+ */
+
+.btn-terciary {
+    color: #ffffff;
+    background-color: #357ebd;
+    border-color: #357ebd;
+}
+
+.btn-terciary:hover,
+.btn-terciary:focus,
+.btn-terciary:active,
+.btn-terciary.active,
+.open .dropdown-toggle.btn-terciary {
+    color: #ffffff;
+    background-color: darken(#357ebd, 10%);
+    border-color: transparent;
+}
+
+.btn-terciary:active,
+.btn-terciary.active,
+.open .dropdown-toggle.btn-terciary {
+    background-image: none;
+}
+
+.btn-terciary.disabled,
+.btn-terciary[disabled],
+fieldset[disabled] .btn-terciary,
+.btn-terciary.disabled:hover,
+.btn-terciary[disabled]:hover,
+fieldset[disabled] .btn-terciary:hover,
+.btn-terciary.disabled:focus,
+.btn-terciary[disabled]:focus,
+fieldset[disabled] .btn-terciary:focus,
+.btn-terciary.disabled:active,
+.btn-terciary[disabled]:active,
+fieldset[disabled] .btn-terciary:active,
+.btn-terciary.disabled.active,
+.btn-terciary[disabled].active,
+fieldset[disabled] .btn-terciary.active {
+    background-color: #357ebd;
+    border-color: #357ebd;
+}
+
+.btn-terciary .badge {
+    color: #357ebd;
+    background-color: #ffffff;
+}

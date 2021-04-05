@@ -1,0 +1,24 @@
+<?php
+
+namespace App\Models\DummyClass;
+
+//use Cache;
+
+trait DummyClassEvents {
+
+    /*
+    |--------------------------------------------------------------------------
+    | Events
+    |--------------------------------------------------------------------------
+    */
+
+    protected static function boot()
+    {
+        parent::boot();
+
+        // static::saved(function ($model) {
+        //     //get_class($model) will output App\Models\DummyClass\DummyModel
+        //     Cache::forget(cacheKey($model));
+        // });
+    }
+}

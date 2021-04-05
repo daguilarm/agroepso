@@ -1,0 +1,45 @@
+/*!
+ * Top navbar
+ * 
+ * Added the active link for all the status
+ */
+
+ul.navbar-top {
+    li.active {
+        background-color: #232D32;
+        a {
+            font-weight: 900;
+        }
+    }
+    
+    .dropdown > a.active {
+        background-color: #232D32;
+        font-weight: 900;
+    }
+
+    a {
+        text-decoration: none;
+    }
+}
+
+.app-sidebar__toggle::before {
+    display: none;
+    font-family: "Font Awesome 5 Solid";
+    content: "\f0c9";
+    font-size: 21px;
+}
+
+.app-sidebar__toggle::focus,
+.app-sidebar__toggle::hover {
+    color: #fff;
+    background-color: darken($base-color, 20%) !important;
+    text-decoration: none;
+}
+
+/*!
+ * Right icons reset
+ */
+.icon-reset {
+    padding-top: 11px !important;
+    padding-bottom: 8px !important;
+}

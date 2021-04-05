@@ -1,0 +1,38 @@
+// stylelint-disable
+$color-white:    #fff !default;
+$color-gray-100: #f8f9fa !default;
+$color-gray-200: #e9ecef !default;
+$color-gray-300: #dee2e6 !default;
+$color-gray-400: #ced4da !default;
+$color-gray-500: #adb5bd !default;
+$color-gray-600: #6c757d !default;
+$color-gray-700: #495057 !default;
+$color-gray-800: #343a40 !default;
+$color-gray-900: #212529 !default;
+$color-black:    #000 !default;
+
+// Base colors
+$base-color:    #209587 !default;
+$color-blue:    #007bff !default;
+$color-indigo:  #6610f2 !default;
+$color-purple:  #6f42c1 !default;
+$color-pink:    #e83e8c !default;
+$color-red:     #dc3545 !default;
+$color-orange:  #fd7e14 !default;
+$color-yellow:  yellow !default;
+$color-yellow-light:  lighten($color-yellow, 20%) !default;
+$color-yellow-lighter:  lighten($color-yellow, 40%) !default;
+$color-green:   #28a745 !default;
+$color-teal:    #20c997 !default;
+$color-cyan:    #17a2b8 !default;
+
+//Brand colors
+$brand-primary:         $color-blue !default;
+$brand-primary-dark:    darken($color-blue, 20%) !default;
+$brand-secondary:       $color-gray-600 !default;
+$brand-success:         $color-green !default;
+$brand-info:            $color-cyan !default;
+$brand-warning:         $color-orange !default;
+$brand-danger:          $color-red !default;
+$brand-light:           $color-gray-100 !default;
+$brand-dark:            $color-gray-800 !default;

@@ -1,0 +1,90 @@
+/*!
+ * Table
+ *
+ * Center the table fields
+ */
+
+table > thead > tr > th,
+table > tbody > tr > td {
+    text-align: center !important;
+    vertical-align: middle !important;
+}
+
+/*!
+ * Table
+ *
+ * Striped rows color
+ */
+// .table-striped > tbody > tr:nth-child(2n+1) > td, .table-striped > tbody > tr:nth-child(2n+1) > th {
+//    background-color: $color-table-striped;
+// }
+
+/*!
+ * Table
+ *
+ * Add background color to th
+ * Sortable links color for ordering
+ * Table arrows for ordering
+ */
+table > thead > tr > th {
+    @extend .bg-secondary;
+    color: white;
+
+    a,
+    a:hover {
+        color: white;
+        text-decoration: none;
+    }
+
+    .table-arrow-up::before {
+        display: none;
+        font-family: "Font Awesome 5 Solid";
+        content: "\f30c";
+        font-weight: 900;
+    }
+
+    .table-arrow-down::before {
+        display: none;
+        font-family: "Font Awesome 5 Solid";
+        content: "\f309";
+        font-weight: 900;
+    }
+
+    .table-danger {
+        @extend .alert-danger;
+    }
+
+    .table-primary {
+        @extend .alert-primary;
+    }
+
+    .table-secondary {
+        @extend .alert-secondary;
+    }
+
+    .table-success {
+        @extend .alert-success;
+    }
+
+    .table-warning {
+        @extend .alert-warning;
+    }
+}
+
+/*!
+ * Table
+ *
+ * Custom info table
+ */
+#table-info {
+    td {
+        text-align: left !important;
+        padding-left: 10px !important;
+    }
+
+    td:nth-child(1) {
+        text-transform: uppercase !important;
+        font-weight: 900;
+        width: 40% !important;
+    }
+}
