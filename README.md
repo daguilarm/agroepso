@@ -10,13 +10,4 @@ You can find more info about the final project in:
 https://www.mdpi.com/2073-4395/10/9/1352
 
 
-# Packages 
-https://github.com/anhskohbo/no-captcha
-https://github.com/spatie/laravel-cookie-consent
-https://github.com/spatie/laravel-permission
-https://github.com/barryvdh/laravel-debugbar
-https://yajrabox.com/docs/laravel-datatables/master
-https://laravelcollective.com/docs/master/html
-http://image.intervention.io/
-...
-
+This repository is for educational purposes only.
